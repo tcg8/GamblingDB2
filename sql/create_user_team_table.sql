@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS  `user_team`
 (
     `id`                int auto_increment not null,
     `user_owner`        varchar(255),
-    `team_name`         varchar(30) not null,
+    `team_name`         varchar(255) not null,
     
     `eplayer1_name`           varchar(255),
     `eplayer2_name`           varchar(255),
