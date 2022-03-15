@@ -2,6 +2,7 @@ CREATE TABLE IF NOT EXISTS  `user_team`
 (
     `id`                int auto_increment not null,
     `user_owner`        int,
+    `team_name`         varchar(30) not null,
     
     `eplayer1_id`           int,
     `eplayer2_id`           int,
@@ -16,6 +17,7 @@ CREATE TABLE IF NOT EXISTS  `user_team`
     
     PRIMARY KEY (`id`),
     FOREIGN KEY (`user_owner`) REFERENCES Users(`id`),
+    UNIQUE KEY (`team_name`),
     
     FOREIGN KEY (`eplayer1_id`) REFERENCES eplayer(`id`),
     FOREIGN KEY (`eplayer2_id`) REFERENCES eplayer(`id`),
