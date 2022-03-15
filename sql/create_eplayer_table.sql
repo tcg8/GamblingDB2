@@ -1,3 +1,4 @@
+USE League_Gamble;
 CREATE TABLE IF NOT EXISTS  `eplayer`
 (
     `id`                int auto_increment not null,
