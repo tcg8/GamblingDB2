@@ -20,14 +20,14 @@ CREATE TABLE IF NOT EXISTS  `user_team`
     FOREIGN KEY (`user_owner`) REFERENCES Users(`id`),
     UNIQUE KEY (`team_name`),
     
-    FOREIGN KEY (`eplayer1_id`) REFERENCES eplayer(`username`),
-    FOREIGN KEY (`eplayer2_id`) REFERENCES eplayer(`username`),
-    FOREIGN KEY (`eplayer3_id`) REFERENCES eplayer(`username`),
-    FOREIGN KEY (`eplayer4_id`) REFERENCES eplayer(`username`),
-    FOREIGN KEY (`eplayer5_id`) REFERENCES eplayer(`username`),
-    FOREIGN KEY (`eplayer6_id`) REFERENCES eplayer(`username`),
-    FOREIGN KEY (`eplayer7_id`) REFERENCES eplayer(`username`),
-    FOREIGN KEY (`eplayer8_id`) REFERENCES eplayer(`username`),
-    FOREIGN KEY (`eplayer9_id`) REFERENCES eplayer(`username`),
-    FOREIGN KEY (`eplayer10_id`) REFERENCES eplayer(`username`)
+    FOREIGN KEY (`eplayer1_name`) REFERENCES eplayer(`username`),
+    FOREIGN KEY (`eplayer2_name`) REFERENCES eplayer(`username`),
+    FOREIGN KEY (`eplayer3_name`) REFERENCES eplayer(`username`),
+    FOREIGN KEY (`eplayer4_name`) REFERENCES eplayer(`username`),
+    FOREIGN KEY (`eplayer5_name`) REFERENCES eplayer(`username`),
+    FOREIGN KEY (`eplayer6_name`) REFERENCES eplayer(`username`),
+    FOREIGN KEY (`eplayer7_name`) REFERENCES eplayer(`username`),
+    FOREIGN KEY (`eplayer8_name`) REFERENCES eplayer(`username`),
+    FOREIGN KEY (`eplayer9_name`) REFERENCES eplayer(`username`),
+    FOREIGN KEY (`eplayer10_name`) REFERENCES eplayer(`username`)
 )
