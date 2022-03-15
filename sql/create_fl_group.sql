@@ -28,5 +28,5 @@ CREATE TABLE IF NOT EXISTS  `fl_group`
     FOREIGN KEY (`user9_id`) REFERENCES Users(`id`),
     FOREIGN KEY (`user10_id`) REFERENCES Users(`id`),
     FOREIGN KEY (`user11_id`) REFERENCES Users(`id`),
-    FOREIGN KEY (`user12_id`) REFERENCES Users(`id`),
+    FOREIGN KEY (`user12_id`) REFERENCES Users(`id`)
 )
