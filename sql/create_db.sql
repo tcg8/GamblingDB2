@@ -1,1 +1,1 @@
-CREATE DATABASE Gambling_DB;
+CREATE DATABASE League_Gamble;
