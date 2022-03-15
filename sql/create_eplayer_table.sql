@@ -10,5 +10,5 @@ CREATE TABLE IF NOT EXISTS  `eplayer`
     `eteam`             varchar(30) not null,
     
     PRIMARY KEY (`id`),
-    UNIQUE KEY (`name`),
+    UNIQUE KEY (`name`)
 )
