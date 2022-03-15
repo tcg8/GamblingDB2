@@ -28,5 +28,4 @@ CREATE TABLE IF NOT EXISTS  `fl_group`
     FOREIGN KEY (`user10_id`) REFERENCES Users(`id`),
     FOREIGN KEY (`user11_id`) REFERENCES Users(`id`),
     FOREIGN KEY (`user12_id`) REFERENCES Users(`id`),
-    UNIQUE KEY `user_comp` (`user1_id`, `user2_id`, `user3_id`, `user4_id`, `user5_id`, `user6_id`, `user7_id`, `user8_id`, `user9_id`, `user10_id`, `user11_id`, `user12_id`, )
 )
