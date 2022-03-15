@@ -1,7 +1,6 @@
 CREATE TABLE IF NOT EXISTS  `fl_group`
 (
     `id`                int auto_increment not null,
-    `competition_id`    int,
     `user1_id`           int,
     `user2_id`           int,
     `user3_id`           int,
