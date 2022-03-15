@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS  `user_team`
     `eplayer10_name`           varchar(255),
     
     PRIMARY KEY (`id`),
-    FOREIGN KEY (`user_owner`) REFERENCES Users(`id`),
+    FOREIGN KEY (`user_owner`) REFERENCES Users(`username`),
     UNIQUE KEY (`team_name`),
     
     FOREIGN KEY (`eplayer1_name`) REFERENCES eplayer(`username`),
