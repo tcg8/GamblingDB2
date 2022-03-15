@@ -30,4 +30,4 @@ CREATE TABLE IF NOT EXISTS  `user_team`
     FOREIGN KEY (`eplayer8_id`) REFERENCES eplayer(`id`),
     FOREIGN KEY (`eplayer9_id`) REFERENCES eplayer(`id`),
     FOREIGN KEY (`eplayer10_id`) REFERENCES eplayer(`id`),
-);
+)
