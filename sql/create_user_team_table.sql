@@ -1,4 +1,4 @@
-USE League_Gamble;
+USE Gambling_DB;
 CREATE TABLE IF NOT EXISTS  `user_team`
 (
     `id`                int auto_increment not null,
