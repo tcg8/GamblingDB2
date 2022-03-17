@@ -1,5 +1,5 @@
 USE League_Gamble;
-CREATE TABLE HistoricalData (
+CREATE TABLE IF NOT EXISTS `HistoricalData` (
     `id` int auto_increment not null,
     `Name` varchar(255),
     `Season` varchar(255),
