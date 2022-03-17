@@ -15,7 +15,6 @@ CREATE TABLE IF NOT EXISTS `Groups`
   `Player8`           varchar(255),
   `Player9`           varchar(255),
   `Player10`           varchar(255),
-  `Expires`           timestamp,
   PRIMARY KEY (`id`),
   FOREIGN KEY (`Player1`) REFERENCES Users(`username`),
     FOREIGN KEY (`Player2`) REFERENCES Users(`username`),
