@@ -1,3 +1,4 @@
+USE League_Gamble;
 CREATE TABLE LeagueData (
     `id` int auto_increment not null,
     `leaguename` varchar(100),
