@@ -1,7 +1,0 @@
-CREATE TABLE LeagueData (
-    leaguename varchar(255) PRIMARY KEY,
-    hometeam varchar(255),
-    awayteam varchar(255), 
-    eventdate datetime,
-    eventID int(255)
-);
