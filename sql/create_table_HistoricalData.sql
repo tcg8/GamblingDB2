@@ -1,3 +1,4 @@
+USE League_Gamble;
 CREATE TABLE HistoricalData (
     `id` int auto_increment not null,
     `Name` varchar(255),
