@@ -17,7 +17,7 @@ $mail->addAddress('tristangibs@gmail.com');
 $mail->Subject = 'League of Gambles notification';
 //echo 'break 4';
 $mail->Body = '<h2>Hello!</h2><p style="color:Blue;">
-Do not forget to check out your League Gambling Group! It will be a lot of fun!</p>';
+Do not forget to check out your League Gambling Group! It will be a lot of fun! </p>';
 
 $mail->isHTML(true);
 $mail->AltBody = "Don't forget to check out your League Gambling Group!";
