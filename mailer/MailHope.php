@@ -1,4 +1,4 @@
-
+<link rel="shortcut icon" href="#">
 <?php
 
 use PHPMailer\PHPMailer\PHPMailer;
