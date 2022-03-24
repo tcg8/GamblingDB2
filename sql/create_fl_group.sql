@@ -1,7 +1,7 @@
 USE League_Gamble;
 CREATE TABLE IF NOT EXISTS  `fl_group`
 (
-    `id`                int auto_increment not null,
+    `id`                int auto_increment,
     `user1_name`           varchar(255),
     `user2_name`           varchar(255),
     `user3_name`           varchar(255),
