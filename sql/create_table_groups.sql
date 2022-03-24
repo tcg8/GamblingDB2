@@ -1,7 +1,7 @@
 USE League_Gamble; 
 CREATE TABLE IF NOT EXISTS `Groups`
 (
-  `Name`              varchar(255) PRIMARY KEY,
+  `Name`              varchar(255) PRIMARY KEY NOT NULL,
   `Code`              varchar(255), 
   `Player1`           varchar(255) NULL,
   `Player2`           varchar(255) NULL,
