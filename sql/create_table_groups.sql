@@ -1,5 +1,5 @@
 USE League_Gamble; 
-CREATE TABLE IF NOT EXISTS Groups
+CREATE TABLE IF NOT EXISTS `Groups`
 (
   `id`                int auto_increment,
   `Name`              varchar(255),
