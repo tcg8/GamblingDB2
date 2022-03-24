@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS `Groups`
 (
   `id`                int auto_increment,
   `Name`              varchar(255),
-  `Code`              int(4), 
+  `Code`              varchar(255), 
   `Joinable`          int(4) default 0,
   `Player1`           varchar(255) default NULL,
   `Player2`           varchar(255) default NULL,
