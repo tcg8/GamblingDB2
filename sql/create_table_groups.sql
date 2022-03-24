@@ -1,8 +1,7 @@
 USE League_Gamble; 
 CREATE TABLE IF NOT EXISTS `Groups`
 (
-  `id`                int auto_increment,
-  `Name`              varchar(255),
+  `Name`              varchar(255) PRIMARY KEY NOT NULL,
   `Code`              varchar(255), 
   `Joinable`          int(4) default 0,
   `Player1`           varchar(255) default NULL,
@@ -15,7 +14,6 @@ CREATE TABLE IF NOT EXISTS `Groups`
   `Player8`           varchar(255) default NULL,
   `Player9`           varchar(255) default NULL,
   `Player10`           varchar(255) default NULL,
-  PRIMARY KEY (`id`),
   FOREIGN KEY (`Player1`) REFERENCES Users(`username`),
     FOREIGN KEY (`Player2`) REFERENCES Users(`username`),
     FOREIGN KEY (`Player3`) REFERENCES Users(`username`),
