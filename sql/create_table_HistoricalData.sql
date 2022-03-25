@@ -1,4 +1,5 @@
 CREATE TABLE HistoricalData (
+    id int,
     Name varchar(255) PRIMARY KEY,
     Season varchar(255),
     url varchar(255),
