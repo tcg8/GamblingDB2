@@ -1,4 +1,4 @@
 CREATE TABLE CreateTeams (
-    participant varchar(255),    
+    players varchar(255) PRIMARY KEY,    
     key varchar(255) FOREIGN KEY REFERENCES CreateGroups(code)
 );
