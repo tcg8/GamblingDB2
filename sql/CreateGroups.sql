@@ -1,5 +1,4 @@
 CREATE TABLE CreateGroups (
-    uname varchar(255),
-    code varchar(255),
-    player varchar(255) NULL
+    uname varchar(255) PRIMARY KEY,
+    code varchar(255) PRIMARY KEY
 );
