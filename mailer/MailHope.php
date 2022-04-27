@@ -35,3 +35,5 @@ if(!$mail->send()) {
   echo 'Email has been sent.';
 }
 ?>
+
+# some code referenced from march 21 12:00 https://www.php.net/manual/en/function.mail.php
