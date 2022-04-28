@@ -1,3 +1,4 @@
+<link rel="shortcut icon" href="#">
 <?php
 if ( isset( $_REQUEST ) && !empty( $_REQUEST ) ) {
  if (
