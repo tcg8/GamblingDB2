@@ -1,6 +1,7 @@
 <?php
+
 require 'class.phpmailer.php';
- use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 require '/usr/share/php/libphp-phpmailer/src/Exception.php';
@@ -19,14 +20,14 @@ $mail->Port = 587;
 $mail->Encoding = '7bit';       // SMS uses 7-bit encoding
  
 // Authentication
-$mail->Username   = "tcg8@njit.edu"; // Login
-$mail->Password   = "Just1morebeer"; // Password
+$mail->Username   = 'grab7349@gmail.com'; // Login
+$mail->Password   = 'Slippers'; // Password
  
 // Compose
 $mail->Subject = "Testing";     // Subject (which isn't required)
 $mail->Body = "Testing";        // Body of our message
  //# citation: 4/27/22 12:13pm https://code.tutsplus.com/tutorials/how-to-send-text-messages-with-php--net-17693 
 // Send To
-$mail->AddAddress( tristangibs@gmail.com" ); // Where to send it
-var_dump( $mail->send() );      // Send!
+$mail->AddAddress( tristangibs@gmail.com" ); 
+var_dump($mail->send());  
 ?>
