@@ -20,7 +20,7 @@ $mail->Password   = "Just1morebeer"; // Password
 // Compose
 $mail->Subject = "Testing";     // Subject (which isn't required)
 $mail->Body = "Testing";        // Body of our message
- # citation: 4/27/22 12:13pm https://code.tutsplus.com/tutorials/how-to-send-text-messages-with-php--net-17693 
+ //# citation: 4/27/22 12:13pm https://code.tutsplus.com/tutorials/how-to-send-text-messages-with-php--net-17693 
 // Send To
 $mail->AddAddress( tristangibs@gmail.com" ); // Where to send it
 var_dump( $mail->send() );      // Send!
