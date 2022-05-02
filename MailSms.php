@@ -1,6 +1,11 @@
 <?php
 require 'class.phpmailer.php';
- 
+ use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require '/usr/share/php/libphp-phpmailer/src/Exception.php';
+require '/usr/share/php/libphp-phpmailer/src/PHPMailer.php';
+require '/usr/share/php/libphp-phpmailer/src/SMTP.php';
 // Instantiate Class
 $mail = new PHPMailer();
  
