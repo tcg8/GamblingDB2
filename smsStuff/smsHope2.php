@@ -11,5 +11,5 @@ if ( isset( $_REQUEST ) && !empty( $_REQUEST ) ) {
   print 'Not all information was submitted.';
  }
 }
-# citation: 4/27/22 12:13pm https://code.tutsplus.com/tutorials/how-to-send-text-messages-with-php--net-17693 
+//# citation: 4/27/22 12:13pm https://code.tutsplus.com/tutorials/how-to-send-text-messages-with-php--net-17693 
 ?>
