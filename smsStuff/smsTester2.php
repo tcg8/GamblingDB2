@@ -1,6 +1,9 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 require 'class.phpmailer.php';
- //citation https://code.tutsplus.com/tutorials/how-to-send-text-messages-with-php--net-17693#troubleshooting 5/5/2022 6:48 pm
+require '/usr/share/php/libphp-phpmailer/src/SMTP.php';
+ //citation some code comes from https://code.tutsplus.com/tutorials/how-to-send-text-messages-with-php--net-17693#troubleshooting 5/5/2022 6:48 pm
 // Instantiate Class
 $mail = new PHPMailer();
  
