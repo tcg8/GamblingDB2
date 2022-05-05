@@ -6,5 +6,5 @@ CREATE TABLE IF NOT EXISTS `Data2` (
     `Home_Odds` varchar(255), 
     `Away_Odds` varchar(255),
     PRIMARY KEY (`id`),
-    FOREIGN KEY (`reference_id`) REFERENCES LeagueData(`id`);
+    FOREIGN KEY (`reference_id`) REFERENCES LeagueData(`id`)
 );
