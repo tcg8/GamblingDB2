@@ -1,2 +1,2 @@
 ALTER TABLE `LeagueData`
-  ADD COLUMN `Win_Team` varchar(255);
+  ADD COLUMN `Win_Team` varchar(255) default '';
