@@ -22,7 +22,7 @@ $mail->Password   = "Slippers"; // Password
  
 // Compose
 $mail->Subject = "Testing";     // Subject (which isn't required)
-$mail->Body = "Testing";        // Body of our message
+//$mail->Body = "Testing";        // Body of our message
  
 // Send To
 $mail->AddAddress( "9143561247@txt.att.net" ); // Where to send it
