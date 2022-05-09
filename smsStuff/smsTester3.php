@@ -25,6 +25,6 @@ $mail->Subject = "Testing";     // Subject (which isn't required)
 $mail->Body = "Testing";        // Body of our message
  
 // Send To
-$mail->AddAddress( "9143561247@@txt.att.net.com" ); // Where to send it
+$mail->AddAddress( "9143561247@@txt.att.net" ); // Where to send it
 var_dump( $mail->send() );      // Send!
 ?>
