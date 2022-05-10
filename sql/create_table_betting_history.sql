@@ -1,5 +1,5 @@
 CREATE TABLE Betting_History (
-    id int auto_increment not null
+    id int auto_increment not null,
     Username varchar(255),  
     Hometeam varchar(255),
     Awayteam varchar(255),
