@@ -5,7 +5,7 @@ CREATE TABLE Betting_History (
     Awayteam varchar(255),
     teambet varchar(255),
     Won_or_Loss varchar(255) default '',
-    Betting_Score int,
+    Betting_Score int default 0,
     PRIMARY KEY (id),
     FOREIGN KEY (Username) REFERENCES Users(username)
 );
