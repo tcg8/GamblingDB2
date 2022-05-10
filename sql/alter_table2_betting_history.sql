@@ -1,2 +1,2 @@
 ALTER TABLE `Betting_History`
-  ADD COLUMN `eventdate` datetime;
+  ADD COLUMN `eventdate` datetime DEFAULT getdate();
