@@ -1,5 +1,8 @@
 <?php 
- 
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+require 'class.phpmailer.php';
+require '/usr/share/php/libphp-phpmailer/src/SMTP.php';
 function httpGet($url)
 {
     $ch = curl_init();  
